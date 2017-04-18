@@ -1,22 +1,28 @@
 //
-//  AppDelegate.m
+//  JYINAppDelegate.m
 //  JYIndoorNavigation
 //
 //  Created by csy on 2017/4/18.
 //  Copyright © 2017年 chen_sy. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "JYINAppDelegate.h"
+#import "JYINNavigationViewController.h"
+#import "JYINShopLishtViewController.h"
 
-@interface AppDelegate ()
+@interface JYINAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation JYINAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[JYINNavigationViewController alloc] initWithRootViewController:[[JYINShopLishtViewController alloc] init]];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

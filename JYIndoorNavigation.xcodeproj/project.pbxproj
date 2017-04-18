@@ -7,22 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2012363B1EA5DB7100B55DCB /* JYINAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201236391EA5DB7100B55DCB /* JYINAppDelegate.m */; };
+		201236411EA5DC8200B55DCB /* JYINBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201236401EA5DC8200B55DCB /* JYINBaseViewController.m */; };
+		201236441EA5DCAA00B55DCB /* JYINNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201236431EA5DCAA00B55DCB /* JYINNavigationViewController.m */; };
+		2012364A1EA5E0AA00B55DCB /* JYINShopLishtViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 201236491EA5E0AA00B55DCB /* JYINShopLishtViewController.m */; };
+		201236511EA5EC3200B55DCB /* JYINShopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 201236501EA5EC3200B55DCB /* JYINShopTableViewCell.m */; };
+		201236551EA5F02A00B55DCB /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201236541EA5F02A00B55DCB /* CoreBluetooth.framework */; };
+		201236571EA5F03400B55DCB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201236561EA5F03400B55DCB /* CoreLocation.framework */; };
+		2012365A1EA5F06100B55DCB /* ScanBlueTooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 201236591EA5F06100B55DCB /* ScanBlueTooth.m */; };
+		2012365D1EA5F0DF00B55DCB /* NearbyPeripheralInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 2012365C1EA5F0DF00B55DCB /* NearbyPeripheralInfo.m */; };
 		2047555B1EA5D7460025C83A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047555A1EA5D7460025C83A /* main.m */; };
-		2047555E1EA5D7460025C83A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2047555D1EA5D7460025C83A /* AppDelegate.m */; };
-		204755611EA5D7460025C83A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204755601EA5D7460025C83A /* ViewController.m */; };
-		204755641EA5D7460025C83A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204755621EA5D7460025C83A /* Main.storyboard */; };
 		204755661EA5D7460025C83A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 204755651EA5D7460025C83A /* Assets.xcassets */; };
 		204755691EA5D7460025C83A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 204755671EA5D7460025C83A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		201236381EA5DB7100B55DCB /* JYINAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYINAppDelegate.h; sourceTree = "<group>"; };
+		201236391EA5DB7100B55DCB /* JYINAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYINAppDelegate.m; sourceTree = "<group>"; };
+		2012363F1EA5DC8200B55DCB /* JYINBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYINBaseViewController.h; sourceTree = "<group>"; };
+		201236401EA5DC8200B55DCB /* JYINBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYINBaseViewController.m; sourceTree = "<group>"; };
+		201236421EA5DCAA00B55DCB /* JYINNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYINNavigationViewController.h; sourceTree = "<group>"; };
+		201236431EA5DCAA00B55DCB /* JYINNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYINNavigationViewController.m; sourceTree = "<group>"; };
+		201236481EA5E0AA00B55DCB /* JYINShopLishtViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYINShopLishtViewController.h; sourceTree = "<group>"; };
+		201236491EA5E0AA00B55DCB /* JYINShopLishtViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYINShopLishtViewController.m; sourceTree = "<group>"; };
+		2012364B1EA5E7E300B55DCB /* JYINConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYINConst.h; sourceTree = "<group>"; };
+		2012364F1EA5EC3200B55DCB /* JYINShopTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYINShopTableViewCell.h; sourceTree = "<group>"; };
+		201236501EA5EC3200B55DCB /* JYINShopTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYINShopTableViewCell.m; sourceTree = "<group>"; };
+		201236541EA5F02A00B55DCB /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		201236561EA5F03400B55DCB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		201236581EA5F06100B55DCB /* ScanBlueTooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanBlueTooth.h; sourceTree = "<group>"; };
+		201236591EA5F06100B55DCB /* ScanBlueTooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanBlueTooth.m; sourceTree = "<group>"; };
+		2012365B1EA5F0DF00B55DCB /* NearbyPeripheralInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearbyPeripheralInfo.h; sourceTree = "<group>"; };
+		2012365C1EA5F0DF00B55DCB /* NearbyPeripheralInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearbyPeripheralInfo.m; sourceTree = "<group>"; };
 		204755561EA5D7460025C83A /* JYIndoorNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYIndoorNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2047555A1EA5D7460025C83A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2047555C1EA5D7460025C83A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2047555D1EA5D7460025C83A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2047555F1EA5D7460025C83A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		204755601EA5D7460025C83A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		204755631EA5D7460025C83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		204755651EA5D7460025C83A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		204755681EA5D7460025C83A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2047556A1EA5D7460025C83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,17 +51,95 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				201236571EA5F03400B55DCB /* CoreLocation.framework in Frameworks */,
+				201236551EA5F02A00B55DCB /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		201236341EA5DB7100B55DCB /* VIewController */ = {
+			isa = PBXGroup;
+			children = (
+				2012363E1EA5DC6200B55DCB /* BaseVC */,
+				201236481EA5E0AA00B55DCB /* JYINShopLishtViewController.h */,
+				201236491EA5E0AA00B55DCB /* JYINShopLishtViewController.m */,
+			);
+			path = VIewController;
+			sourceTree = "<group>";
+		};
+		201236371EA5DB7100B55DCB /* other */ = {
+			isa = PBXGroup;
+			children = (
+				201236381EA5DB7100B55DCB /* JYINAppDelegate.h */,
+				201236391EA5DB7100B55DCB /* JYINAppDelegate.m */,
+				2012364B1EA5E7E300B55DCB /* JYINConst.h */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		2012363C1EA5DB8800B55DCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2012365B1EA5F0DF00B55DCB /* NearbyPeripheralInfo.h */,
+				2012365C1EA5F0DF00B55DCB /* NearbyPeripheralInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2012363D1EA5DC1600B55DCB /* CoreAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				201236521EA5EDE000B55DCB /* Scan */,
+			);
+			path = CoreAlgorithm;
+			sourceTree = "<group>";
+		};
+		2012363E1EA5DC6200B55DCB /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				2012363F1EA5DC8200B55DCB /* JYINBaseViewController.h */,
+				201236401EA5DC8200B55DCB /* JYINBaseViewController.m */,
+				201236421EA5DCAA00B55DCB /* JYINNavigationViewController.h */,
+				201236431EA5DCAA00B55DCB /* JYINNavigationViewController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		2012364E1EA5EC1000B55DCB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2012364F1EA5EC3200B55DCB /* JYINShopTableViewCell.h */,
+				201236501EA5EC3200B55DCB /* JYINShopTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		201236521EA5EDE000B55DCB /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				201236581EA5F06100B55DCB /* ScanBlueTooth.h */,
+				201236591EA5F06100B55DCB /* ScanBlueTooth.m */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		201236531EA5F02A00B55DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				201236561EA5F03400B55DCB /* CoreLocation.framework */,
+				201236541EA5F02A00B55DCB /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2047554D1EA5D7460025C83A = {
 			isa = PBXGroup;
 			children = (
 				204755581EA5D7460025C83A /* JYIndoorNavigation */,
 				204755571EA5D7460025C83A /* Products */,
+				201236531EA5F02A00B55DCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +154,11 @@
 		204755581EA5D7460025C83A /* JYIndoorNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				2047555C1EA5D7460025C83A /* AppDelegate.h */,
-				2047555D1EA5D7460025C83A /* AppDelegate.m */,
-				2047555F1EA5D7460025C83A /* ViewController.h */,
-				204755601EA5D7460025C83A /* ViewController.m */,
-				204755621EA5D7460025C83A /* Main.storyboard */,
-				204755651EA5D7460025C83A /* Assets.xcassets */,
-				204755671EA5D7460025C83A /* LaunchScreen.storyboard */,
-				2047556A1EA5D7460025C83A /* Info.plist */,
+				2012363D1EA5DC1600B55DCB /* CoreAlgorithm */,
+				2012364E1EA5EC1000B55DCB /* View */,
+				2012363C1EA5DB8800B55DCB /* Model */,
+				201236341EA5DB7100B55DCB /* VIewController */,
+				201236371EA5DB7100B55DCB /* other */,
 				204755591EA5D7460025C83A /* Supporting Files */,
 			);
 			path = JYIndoorNavigation;
@@ -74,6 +167,9 @@
 		204755591EA5D7460025C83A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2047556A1EA5D7460025C83A /* Info.plist */,
+				204755651EA5D7460025C83A /* Assets.xcassets */,
+				204755671EA5D7460025C83A /* LaunchScreen.storyboard */,
 				2047555A1EA5D7460025C83A /* main.m */,
 			);
 			name = "Supporting Files";
@@ -110,6 +206,7 @@
 				TargetAttributes = {
 					204755551EA5D7460025C83A = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = F985AYB25B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -139,7 +236,6 @@
 			files = (
 				204755691EA5D7460025C83A /* LaunchScreen.storyboard in Resources */,
 				204755661EA5D7460025C83A /* Assets.xcassets in Resources */,
-				204755641EA5D7460025C83A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +246,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				204755611EA5D7460025C83A /* ViewController.m in Sources */,
-				2047555E1EA5D7460025C83A /* AppDelegate.m in Sources */,
+				2012364A1EA5E0AA00B55DCB /* JYINShopLishtViewController.m in Sources */,
+				201236511EA5EC3200B55DCB /* JYINShopTableViewCell.m in Sources */,
+				2012365D1EA5F0DF00B55DCB /* NearbyPeripheralInfo.m in Sources */,
+				201236411EA5DC8200B55DCB /* JYINBaseViewController.m in Sources */,
+				2012365A1EA5F06100B55DCB /* ScanBlueTooth.m in Sources */,
+				2012363B1EA5DB7100B55DCB /* JYINAppDelegate.m in Sources */,
+				201236441EA5DCAA00B55DCB /* JYINNavigationViewController.m in Sources */,
 				2047555B1EA5D7460025C83A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,14 +260,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		204755621EA5D7460025C83A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				204755631EA5D7460025C83A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		204755671EA5D7460025C83A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,7 +365,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F985AYB25B;
 				INFOPLIST_FILE = JYIndoorNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chen-sy.JYIndoorNavigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +378,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F985AYB25B;
 				INFOPLIST_FILE = JYIndoorNavigation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "chen-sy.JYIndoorNavigation";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +406,7 @@
 				2047556F1EA5D7460025C83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

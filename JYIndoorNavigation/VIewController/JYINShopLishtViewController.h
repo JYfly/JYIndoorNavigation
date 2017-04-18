@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JYINShopLishtViewController.h
 //  JYIndoorNavigation
 //
 //  Created by csy on 2017/4/18.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JYINBaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface JYINShopLishtViewController : JYINBaseViewController
 
 @end
-
